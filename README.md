@@ -1,14 +1,17 @@
-## UE-chatgpt
+# UE-chatgpt
 基于UE5引擎实现与ai聊天，融合了chatgpt-3，VITS语音合成，NLP情感分析。自定义给予ai角色设定，项目仍在开发完善中 谢谢大家！  
-VITS：GitHub - jaywalnut310/vits: VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
+
+本项目：https://github.com/kemomi/UE-chatgpt
 
 # Unreal Engine Plugin---UE-chat
 
 一个虚幻引擎插件，通过添加相关chatapi接口来通过异步任务执行识别和合成，将chatgpt自然语言认知服务集成到引擎中。
 --------------------------------------------
-使用虚幻引擎（Unreal Engine）创建一个ChatGPT插件，您需要按照以下步骤进行操作：
+
+# 使用虚幻引擎（Unreal Engine）创建一个ChatGPT插件，按照以下步骤进行操作：
 
 1.首先，您需要安装Python和TensorFlow等必要的工具来运行ChatGPT模型并生成响应。确保您的Python和TensorFlow版本与您要使用的ChatGPT模型兼容。
+
 Python＞17
 
 2.接下来，您需要创建一个新的虚幻引擎项目。在创建项目时，确保选择支持Python插件的选项。这将使您能够在虚幻引擎中编写Python代码。
@@ -34,20 +37,27 @@ Python＞17
 ------------------------------------------
 
 # Links
-创建一个成功的ChatGPT插件，您需要有一些编程经验和对虚幻引擎的熟悉程度，以便将您的Python逻辑与虚幻引擎的其他系统进行集成。同时，您需要具备一定的自然语言处理（NLP）和机器学习（ML）知识，以便能够设计和实现一个高效的ChatGPT模型。
+创建一个成功的ChatGPT插件，您需要有一些编程经验和对虚幻引擎的熟悉程度，以便将您的Python逻辑与虚幻引擎的其他系统进行集成。
+同时，您需要具备一定的自然语言处理（NLP）和机器学习（ML）知识，以便能够设计和实现一个高效的ChatGPT模型。
 总的来说，创建一个ChatGPT插件需要一定的技术知识和经验，但虚幻引擎的文档和社区可以提供帮助和支持。
 
 虚幻引擎官网：
 https://www.epicgames.com/store/zh-CN/
+
 插件商店：
 https://www.unrealengine.com/marketplace/en-US/store
+
 UMG（Unreal Motion Graphics）：
 https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/UMG
+
 Chatgpt：
 https://chat.openai.com/chat
+
 OpenAI：
 https://openai.com/research/natural-language-generation/
+
 NLG（Natural Language Generation）：
 https://www.nlgresources.org
+
 Textio：
 https://textio.com/
