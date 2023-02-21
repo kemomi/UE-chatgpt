@@ -17,7 +17,8 @@
 确保您的系统上安装了Python和TensorFlow，以及其他所需的软件和依赖项。可以使用pip包管理器安装这些软件和依赖项
 
 Python>3.10
-pip>17.0
+
+pip>22.0
 
 ```python
 pip install tensorflow
