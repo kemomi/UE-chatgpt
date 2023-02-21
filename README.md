@@ -79,16 +79,16 @@ print(response)
 同时，需要具备一定的自然语言处理（NLP）和机器学习（ML）知识，以便能够设计和实现一个高效的ChatGPT模型。
 ChatGPT插件需要一定的技术知识和经验，以下文档和社区可以提供帮助和支持。
 
-    * [虚幻引擎官网](https://www.epicgames.com/store/zh-CN/)
+    * [虚幻引擎官网]https://www.epicgames.com/store/zh-CN
 
     * [插件商店]https://www.unrealengine.com/marketplace/en-US/store
 
-    * [UMG(Unreal Motion Graphics)](https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/UMG)
+    * [UMG(Unreal Motion Graphics)]https://docs.unrealengine.com/4.27/zh-CN/InteractiveExperiences/UMG
 
-    * [Chatgpt](https://chat.openai.com/chat)
+    * [Chatgpt]https://chat.openai.com/chat
 
-    * [OpenAI](https://openai.com/research/natural-language-generation/)
+    * [OpenAI]https://openai.com/research/natural-language-generation/
 
-    * [NLG（Natural Language Generation)](https://www.nlgresources.org)
+    * [NLG（Natural Language Generation)]https://www.nlgresources.org
 
-    * [Textio](https://textio.com/)
+    * [Textio]https://textio.com/
