@@ -44,7 +44,7 @@ def generate_response(input_text, model, tokenizer):
 
 ## 运行代码并生成响应
 ```python
-input_text = "Hi, how are you?"
+input_text = "uechat"
 response = generate_response(input_text, model, tokenizer)
 print(response)
 ```
