@@ -12,7 +12,44 @@
 
 1.首先，您需要安装Python和TensorFlow等必要的工具来运行ChatGPT模型并生成响应。确保您的Python和TensorFlow版本与您要使用的ChatGPT模型兼容。
 
+## 安装必要的软件和依赖项
+
+确保您的系统上安装了Python和TensorFlow，以及其他所需的软件和依赖项。可以使用pip包管理器安装这些软件和依赖项
+
 Python＞17
+
+```python
+pip install tensorflow
+pip install transformers
+```
+## 下载ChatGPT模型
+```sh
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+# Load pre-trained model and tokenizer
+tokenizer = GPT2Tokenizer.from_pretrained("microsoft/DialoGPT-medium")
+model = GPT2LMHeadModel.from_pretrained("microsoft/DialoGPT-medium")
+```
+## 定义生成响应的函数
+使用TensorFlow和ChatGPT模型定义一个生成响应的函数。例如，下面是一个简单的函数，它使用ChatGPT模型生成给定输入的响应：
+```python
+def generate_response(input_text, model, tokenizer):
+    input_ids = tokenizer.encode(input_text + tokenizer.eos_token, return_tensors='tf')
+    # Generate response using model
+    output = model.generate(input_ids, max_length=1000, do_sample=True)
+    response = tokenizer.decode(output[0], skip_special_tokens=True)
+    return response
+```
+这个函数使用Tokenizer将输入文本编码成模型可以理解的格式，然后使用GPT2LMHeadModel生成一个响应，最后使用Tokenizer将响应解码成自然语言文本。
+
+## 运行代码并生成响应
+```python
+input_text = "Hi, how are you?"
+response = generate_response(input_text, model, tokenizer)
+print(response)
+```
+在调用generate_response函数时，将输入文本传递给函数，以生成一个响应
+
 
 2.接下来，您需要创建一个新的虚幻引擎项目。在创建项目时，确保选择支持Python插件的选项。这将使您能够在虚幻引擎中编写Python代码。
 
