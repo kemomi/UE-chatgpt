@@ -1,20 +1,20 @@
 ### [本项目地址](https://github.com/kemomi/UE-chatgpt)
+
 # 📖请先阅读相关：[UE-chatgpt API](https://github.com/kemomi/UE-chatgpt/blob/main/README_zh.md)
 
-基于UE5引擎实现与ai聊天，融合了chatgpt-3，VITS语音合成，NLP情感分析。自定义给予ai角色设定，项目仍在开发完善中 谢谢大家！  
+基于UE5引擎实现与ai聊天，融合了chatgpt-3，VITS语音合成，NLP情感分析。
+自定义给予ai角色设定，项目仍在开发完善中 谢谢大家！  
 
-
-
-# Unreal Engine Plugin---UE-chat
+Unreal Engine Plugin---UE-chat
 
 一个虚幻引擎插件，通过添加相关chatapi接口来通过异步任务执行识别和合成，将chatgpt自然语言认知服务集成到引擎中。
 --------------------------------------------
 
-# 使用虚幻引擎（Unreal Engine）创建一个ChatGPT插件，按照以下步骤进行操作：
+## 使用虚幻引擎（Unreal Engine）创建一个ChatGPT插件，按照以下步骤进行操作：
 
 1.首先，您需要安装Python和TensorFlow等必要的工具来运行ChatGPT模型并生成响应。确保您的Python和TensorFlow版本与您要使用的ChatGPT模型兼容。
 
-## 安装必要的软件和依赖项,确保您的系统上安装了Python和TensorFlow
+### 安装必要的软件和依赖项,确保您的系统上安装了Python和TensorFlow
 
 ```
 2captcha-python==1.1.3
@@ -82,7 +82,7 @@ zope.event==4.6
 zope.interface==5.5.2
 ```
 
-# 可以使用pip包管理器安装这些软件和依赖项
+## 可以使用pip包管理器安装这些软件和依赖项
 
 ```python
 pip install tensorflow
@@ -136,7 +136,7 @@ print(response)
 
 10.使用一些调试技术，例如打印日志或使用虚幻引擎的调试工具来检查您的代码中的错误。确保测试您的插件并在必要时进行调试。
 
-最后，在您的Python插件中实现一些错误处理逻辑，以便能够在ChatGPT模型或虚幻引擎中出现错误时进行适当的处理。例如，您可以在模型出现错误时返回默认响应，或在虚幻引擎中出现错误时显示错误消息。
+## 最后，在您的Python插件中实现一些错误处理逻辑，以便能够在ChatGPT模型或虚幻引擎中出现错误时进行适当的处理。例如，您可以在模型出现错误时返回默认响应，或在虚幻引擎中出现错误时显示错误消息。
 ------------------------------------------
 
 # Links
