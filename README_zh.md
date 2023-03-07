@@ -93,6 +93,7 @@
 
 
 ##引用
+
 -[OpenAI的API引擎文档](https://beta.openai.com/docs/engines)
 
 -[OpenAI的API参考](https://beta.openai.com/docs/api-reference/completions)
@@ -106,7 +107,9 @@ Mac
 Android 
 
 ##其他调用
- #adapters:
+ 
+```
+adapters:
   - ws
 debug: true
 enableVerify: true
@@ -118,4 +121,4 @@ adapterSettings:
     host: localhost
     port: 8080
     reservedSyncId: -1
-
+```
