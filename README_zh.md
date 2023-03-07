@@ -24,7 +24,7 @@
 详见[视频](https://www.youtube.com/watch?v=hUv2_gis_9I)
 
 
-[！[]（）](http://www.youtube.com/watch?v=hUv2_gis_9I《OpenAI-API快速入门教程》)
+[OpenAI-API快速入门教程](http://www.youtube.com/watch?v=hUv2_gis_9I《OpenAI-API快速入门教程》)
 
 
 >**注意**：此视频在不断更新，向您展示如何使用DALL·E 2在“虚幻引擎”中生成图像。 
