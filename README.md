@@ -1,7 +1,7 @@
-# [UE-chatgpt API]（https://github.com/kemomi/UE-chatgpt/blob/main/README_zh.md）
+# [UE-chatgpt API](https://github.com/kemomi/UE-chatgpt/blob/main/README_zh.md)
 基于UE5引擎实现与ai聊天，融合了chatgpt-3，VITS语音合成，NLP情感分析。自定义给予ai角色设定，项目仍在开发完善中 谢谢大家！  
 
-本项目：https://github.com/kemomi/UE-chatgpt
+[本项目地址](https://github.com/kemomi/UE-chatgpt)
 
 # Unreal Engine Plugin---UE-chat
 
@@ -16,9 +16,9 @@
 
 确保您的系统上安装了Python和TensorFlow，以及其他所需的软件和依赖项。可以使用pip包管理器安装这些软件和依赖项
 
-Python>3.10
+Python>2.7.18
 
-pip>22.0
+pip>23.0.1
 
 ```python
 pip install tensorflow
