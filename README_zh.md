@@ -24,7 +24,7 @@
 详见[视频](https://www.youtube.com/watch?v=hUv2_gis_9I)
 
 
-[！[]（）](http://www.youtube.com/watch?v=hUv2_gis_9I《OpenAI API快速入门教程》)
+[！[]（）](http://www.youtube.com/watch?v=hUv2_gis_9I《OpenAI-API快速入门教程》)
 
 
 >**注意**：此视频在不断更新，向您展示如何使用DALL·E 2在“虚幻引擎”中生成图像。 
@@ -94,7 +94,9 @@
 
 ##引用
 -[OpenAI的API引擎文档](https://beta.openai.com/docs/engines)
+
 -[OpenAI的API参考](https://beta.openai.com/docs/api-reference/completions)
+
 -[Chatgpt的API参考](https://chat.openai.com/chat)
 
 
@@ -104,8 +106,7 @@ Mac
 Android 
 
 ##其他调用
-"
-adapters:
+ #adapters:
   - ws
 debug: true
 enableVerify: true
@@ -117,4 +118,4 @@ adapterSettings:
     host: localhost
     port: 8080
     reservedSyncId: -1
-"
+
